@@ -49,14 +49,36 @@ namespace _4.CondicionalDoble
             {
                 Console.WriteLine("no es apto para el contenido de este sitio web");*/
 
-            }
+
+
 
             //OperacionesEntreNúmeros 
 
             /*Crear un algoritmo que permita ingresar dos números, si el primer número es mayor al segundo número informar su suma y diferencia, en caso contrario informar el producto y la división del primer número respecto al segundo número. */
 
-            
+            double numero1 = 0f, numero2 = 0f;
 
-}
+            Console.WriteLine("Ingrese un número");
+            numero1=double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Ingrese un número DIFERENTE");
+            numero2 = double.Parse(Console.ReadLine());
+
+            if (numero1 > numero2)
+            {
+                Console.WriteLine($"suma: {numero1+numero2}");
+                Console.WriteLine($"resta: {numero1 - numero2}");
+            }
+            else
+            {
+                Console.WriteLine($"multiplicación: {numero1*numero2}");
+                Console.WriteLine($"división: {numero2/numero1}");
+            }
+        }
+
+
+
+
+    }
 }
 
