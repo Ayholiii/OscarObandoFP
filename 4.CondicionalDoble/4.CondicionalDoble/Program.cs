@@ -91,11 +91,11 @@ noches=int.Parse(Console.ReadLine());
 
 if (noches > 3)
 {
-    Console.WriteLine($"El valor total es: ${precio * noches - descuento1}");
+    Console.WriteLine($"El valor total es: ${precio * noches - 1*descuento1}");
 }
 else
 {
-    Console.WriteLine($"El valor total es: ${precio * noches - descuento2}");
+                Console.WriteLine($"El valor total es: ${precio * noches - 1*descuento2}");
 }
 
 
