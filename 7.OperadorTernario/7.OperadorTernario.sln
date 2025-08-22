@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.OperadorTernario", "7.OperadorTernario\7.OperadorTernario.csproj", "{6DABF787-78F8-4B02-B211-9AF3F7AC9C9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DABF787-78F8-4B02-B211-9AF3F7AC9C9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DABF787-78F8-4B02-B211-9AF3F7AC9C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DABF787-78F8-4B02-B211-9AF3F7AC9C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DABF787-78F8-4B02-B211-9AF3F7AC9C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6163051A-A017-4F02-8256-E6B47877B830}
+	EndGlobalSection
+EndGlobal
