@@ -20,11 +20,6 @@ namespace ParcialCondicionalesOscarObando
             Console.WriteLine("Ingresar Último Dígito Del Documento De Identidad");
             digito = int.Parse (Console.ReadLine());
 
-
-
-
-
-
             switch (grupo)
             {
                 case 'M':
@@ -40,6 +35,11 @@ namespace ParcialCondicionalesOscarObando
                     {
                         Console.WriteLine("Grupo B");
                     }
+
+                    if (edad == 15)
+                    {
+                        Console.WriteLine("Manejo De Ingles: Si , No.");
+                    }
                     break;
 
                 case 'F':
@@ -54,13 +54,13 @@ namespace ParcialCondicionalesOscarObando
                         Console.WriteLine("Grupo B");
                    }
 
-                  break;
+                    if (edad == 15)
+                    {
+                        Console.WriteLine("Manejo De Ingles: Si , No.");
+                     }
 
-            
-                
-
+                    break;
                
-
                 default:
                     Console.WriteLine("Grupop D");
                     break;
