@@ -82,7 +82,7 @@ else
 Si el usuario se queda más de 3 noches se le aplica un porcentaje de descuento del 17% y si no se aplica un porcentaje de descuento del 2%. 
 Mostrar un mensaje con el monto total que debe pagar el cliente, sabiendo que el usuario indica cuántas noches se va a quedar en la hostería. */
 
-double precio = 200, descuento1 = precio*17 / 100, descuento2 = precio*2 / 100;
+double precio = 200, descuento1 = precio*0.17, descuento2 = precio*.02;
 int noches = 0;
 
 
@@ -91,11 +91,11 @@ noches=int.Parse(Console.ReadLine());
 
 if (noches > 3)
 {
-    Console.WriteLine($"El valor total es: ${precio * noches - 1*descuento1}");
+    Console.WriteLine($"El valor total es: ${(precio * noches) - (precio * noches * .17)}");
 }
 else
 {
-                Console.WriteLine($"El valor total es: ${precio * noches - 1*descuento2}");
+                Console.WriteLine($"El valor total es: ${(precio * noches)- (precio * noches * .02)}");
 }
 
 

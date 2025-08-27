@@ -12,7 +12,7 @@ Si el día es viernes o sábado, se realizará un descuento del 20% por la compr
 Si es domingo no se realiza descuento.
 Visualizar el día, el descuento y el total a pagar por la compra. */
 
-/*float ValorCompra = 0, descuento = 0;
+float ValorCompra = 0, descuento = 0;
 char dia = ' ';
 
 Console.WriteLine("ingrese el valor de la compra");
@@ -60,17 +60,18 @@ switch (dia)
 
     default:
         Console.WriteLine("Ingrese un valor VALIDO"); 
-        break;*/
+        break;
 
-// Ejercicio en Clase
-/*Diseñar un algoritmo que permita crear una calculadora básica capaz de realizar operaciones aritméticas entre dos números ingresados por el usuario. Las operaciones disponibles serán: suma, resta, multiplicación y división, las cuales se ejecutarán según la opción seleccionada por el usuario. */
+
+}
+            // Ejercicio en Clase
+/*Diseñar un algoritmo que permita crear una calculadora básica capaz de realizar operaciones aritméticas entre dos números ingresados por el usuario. Las operaciones disponibles serán: suma, resta, multiplicación y división, las cuales se ejecutarán según la opción seleccionada por el usuario. 
 
             float num1=0, num2=0, resultado=0;
             char operacion;
 
             Console.Writeline("Ingresar número 1:");
-            num1=
-}
+            num1=*/
 }
 }
 }
