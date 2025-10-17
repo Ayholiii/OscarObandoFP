@@ -67,11 +67,41 @@ switch (dia)
             // Ejercicio en Clase
 /*Diseñar un algoritmo que permita crear una calculadora básica capaz de realizar operaciones aritméticas entre dos números ingresados por el usuario. Las operaciones disponibles serán: suma, resta, multiplicación y división, las cuales se ejecutarán según la opción seleccionada por el usuario. 
 
-            float num1=0, num2=0, resultado=0;
-            char operacion;
+  */
+float num1 = 0, num2 = 0, resultado = 0;
+            char operacion = ' ';
+            Console.WriteLine("Ingrese el primer número:");
+            
+            num1 = Single.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el segundo número:");
+            num2 = Single.Parse(Console.ReadLine());
+            Console.WriteLine(
+                "Seleccione la operación a realizar:\n" +
+                "s: Suma\n" +
+                "r: Resta\n" +
+                "m: Multiplicación\n" +
+                "d: División"
+                );
+            operacion = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine(
+                operacion switch
+                {
+                    's' => $"El resultado de la suma es: {num1 + num2}",
+                    'r' => $"El resultado de la resta es: {num1 - num2}",
+                    'm' => $"El resultado de la multiplicación es: {num1 * num2}",
+                    'd' => num2 != 0 ? $"El resultado de la división es: {num1 / num2}" : "Error: División por cero no permitida.",
+                    _ => "Operación no válida."
+                }
+            );
+            Console.WriteLine(
+                "Presione cualquier tecla para finalizar..."
+            );
+            Console.ReadKey();
+            Console.WriteLine(
+                "Fin del programa."
+            );
+         
 
-            Console.Writeline("Ingresar número 1:");
-            num1=*/
-}
+        }
 }
 }
