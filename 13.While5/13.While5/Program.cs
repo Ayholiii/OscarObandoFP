@@ -24,7 +24,7 @@
 
                 Console.WriteLine($"Cantidad de números pares entre 1 y {rango}, es: {CantidadPares}");
 
-                //Otra Forma
+                
             }
         }
 
