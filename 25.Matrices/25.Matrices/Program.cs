@@ -92,6 +92,7 @@
                     Console.Write($"{caracteres[i, j]} |");
                 }
             }
+
         }
     }
 }
